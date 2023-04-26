@@ -11,7 +11,8 @@ Ensure directories are present - dags, logs and plugins.
 
 Run via your Terminal:
  docker compose up airflow-init
- No need to run - I've built an .env for you: echo -e "AIRFLOW_UID=$(id -u)" > .env
+
+* No need to run - I've built an .env for you: echo -e "AIRFLOW_UID=$(id -u)" > .env
 
 Run ((-d for detached)):
  docker-compose up -d 
